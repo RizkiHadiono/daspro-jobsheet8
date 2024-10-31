@@ -4,11 +4,11 @@ public class Tugas1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        // Meminta input dari pengguna untuk nilai N
+        // Input nilai N
         System.out.print("Masukkan nilai N : ");
         int N = sc.nextInt();
         
-        // Memastikan bahwa nilai N minimal 3
+        // Nilai N minimal 3
         if (N < 3) {
             System.out.println("Nilai N harus minimal 3!");
         } else {
@@ -23,7 +23,7 @@ public class Tugas1 {
                         System.out.print(" ");
                     }
                 }
-                System.out.println(); // Pindah ke barisan
+                System.out.println(); // Pindah barisan
             }
         }
     }
